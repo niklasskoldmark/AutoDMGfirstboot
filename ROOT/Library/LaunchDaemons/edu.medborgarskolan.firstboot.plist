@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.company.firstboot</string>
+	<string>edu.medborgarskolan.firstboot</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/Library/Scripts/Company/firstboot.sh</string>

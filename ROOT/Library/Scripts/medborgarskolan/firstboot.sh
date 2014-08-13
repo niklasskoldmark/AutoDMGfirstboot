@@ -31,5 +31,5 @@ pmset -c sleep 0
 lpadmin -p "Printer Name" -L "Printer Location" -D "Printer Description" -E -v lpd://server/printqueue -P $genericppd -o printer-is-shared=false
  
 #Securely removes the launchd item and script.
-srm /Library/LaunchDaemons/com.company.firstboot.plist
+srm /Library/LaunchDaemons/edu.medborgarskolan.firstboot.plist
 srm "$0"
